@@ -1,0 +1,83 @@
+.main-nav {
+    min-height: 50px;
+    width: 100%;
+    margin: 0% auto;
+    border-top: solid 3px rgb(238, 99, 39);
+    box-shadow: 0px 1px 5px rgb(82, 80, 80);
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    background-color: rgb(247, 245, 243);
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar {
+    height: 100%;
+    min-width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 5px 25px;
+}
+
+.nav-item {
+    margin: 0 3px;
+    font-size: medium;
+    font-weight: 500;
+    text-decoration: None;
+    color: rgb(38, 38, 38);
+    transition: 0.2s;
+}
+
+.nav-btn {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.nav-btn:hover {
+    background-color: rgb(206, 204, 204);
+}
+
+.icon {
+    position: absolute;
+    right: 385px;
+    top: 25px;
+}
+
+.Navbar form input {
+    min-width: 50%;
+    margin: 10px;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.navbar form {
+    flex-grow: 1;
+    position: relative;
+    padding: 0px 12px;
+}
+
+.nav-links {
+    padding: 7px 13px;
+    border: solid 1px blue;
+    border-radius: 5px;
+    background-color: rgb(241, 240, 238);
+    cursor: pointer;
+    float: right;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links:hover {
+    background-color: rgb(148, 145, 145);
+}
